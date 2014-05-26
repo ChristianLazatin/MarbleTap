@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F62990F1933499D00C8CBF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F62990E1933499D00C8CBF3 /* Foundation.framework */; };
+		4F6299111933499D00C8CBF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6299101933499D00C8CBF3 /* CoreGraphics.framework */; };
+		4F6299131933499D00C8CBF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6299121933499D00C8CBF3 /* UIKit.framework */; };
+		4F6299191933499D00C8CBF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F6299171933499D00C8CBF3 /* InfoPlist.strings */; };
+		4F62991B1933499D00C8CBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F62991A1933499D00C8CBF3 /* main.m */; };
+		4F62991F1933499D00C8CBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F62991E1933499D00C8CBF3 /* AppDelegate.m */; };
+		4F6299211933499D00C8CBF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6299201933499D00C8CBF3 /* Images.xcassets */; };
+		4F6299281933499D00C8CBF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6299271933499D00C8CBF3 /* XCTest.framework */; };
+		4F6299291933499D00C8CBF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F62990E1933499D00C8CBF3 /* Foundation.framework */; };
+		4F62992A1933499D00C8CBF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6299121933499D00C8CBF3 /* UIKit.framework */; };
+		4F6299321933499D00C8CBF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F6299301933499D00C8CBF3 /* InfoPlist.strings */; };
+		4F6299341933499D00C8CBF3 /* MarbleTap01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6299331933499D00C8CBF3 /* MarbleTap01Tests.m */; };
+		4F629940193349CA00C8CBF3 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F62993E193349CA00C8CBF3 /* MainMenuViewController.m */; };
+		4F629941193349CA00C8CBF3 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F62993F193349CA00C8CBF3 /* MainMenuViewController.xib */; };
+		4F62994519334B6500C8CBF3 /* GameScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F62994319334B6500C8CBF3 /* GameScreenViewController.m */; };
+		4F62994619334B6500C8CBF3 /* GameScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F62994419334B6500C8CBF3 /* GameScreenViewController.xib */; };
+		4F62994A19334B7900C8CBF3 /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F62994819334B7900C8CBF3 /* HighScoreViewController.m */; };
+		4F62994B19334B7900C8CBF3 /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F62994919334B7900C8CBF3 /* HighScoreViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F62992B1933499D00C8CBF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F6299031933499D00C8CBF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F62990A1933499D00C8CBF3;
+			remoteInfo = MarbleTap01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F62990B1933499D00C8CBF3 /* MarbleTap01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleTap01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F62990E1933499D00C8CBF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F6299101933499D00C8CBF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F6299121933499D00C8CBF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F6299161933499D00C8CBF3 /* MarbleTap01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarbleTap01-Info.plist"; sourceTree = "<group>"; };
+		4F6299181933499D00C8CBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F62991A1933499D00C8CBF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F62991C1933499D00C8CBF3 /* MarbleTap01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarbleTap01-Prefix.pch"; sourceTree = "<group>"; };
+		4F62991D1933499D00C8CBF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F62991E1933499D00C8CBF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F6299201933499D00C8CBF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F6299261933499D00C8CBF3 /* MarbleTap01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarbleTap01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6299271933499D00C8CBF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4F62992F1933499D00C8CBF3 /* MarbleTap01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarbleTap01Tests-Info.plist"; sourceTree = "<group>"; };
+		4F6299311933499D00C8CBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F6299331933499D00C8CBF3 /* MarbleTap01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarbleTap01Tests.m; sourceTree = "<group>"; };
+		4F62993D193349CA00C8CBF3 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		4F62993E193349CA00C8CBF3 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		4F62993F193349CA00C8CBF3 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		4F62994219334B6500C8CBF3 /* GameScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreenViewController.h; sourceTree = "<group>"; };
+		4F62994319334B6500C8CBF3 /* GameScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreenViewController.m; sourceTree = "<group>"; };
+		4F62994419334B6500C8CBF3 /* GameScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameScreenViewController.xib; sourceTree = "<group>"; };
+		4F62994719334B7900C8CBF3 /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		4F62994819334B7900C8CBF3 /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		4F62994919334B7900C8CBF3 /* HighScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoreViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F6299081933499D00C8CBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6299111933499D00C8CBF3 /* CoreGraphics.framework in Frameworks */,
+				4F6299131933499D00C8CBF3 /* UIKit.framework in Frameworks */,
+				4F62990F1933499D00C8CBF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F6299231933499D00C8CBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6299281933499D00C8CBF3 /* XCTest.framework in Frameworks */,
+				4F62992A1933499D00C8CBF3 /* UIKit.framework in Frameworks */,
+				4F6299291933499D00C8CBF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F6299021933499D00C8CBF3 = {
+			isa = PBXGroup;
+			children = (
+				4F6299141933499D00C8CBF3 /* MarbleTap01 */,
+				4F62992D1933499D00C8CBF3 /* MarbleTap01Tests */,
+				4F62990D1933499D00C8CBF3 /* Frameworks */,
+				4F62990C1933499D00C8CBF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F62990C1933499D00C8CBF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F62990B1933499D00C8CBF3 /* MarbleTap01.app */,
+				4F6299261933499D00C8CBF3 /* MarbleTap01Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F62990D1933499D00C8CBF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F62990E1933499D00C8CBF3 /* Foundation.framework */,
+				4F6299101933499D00C8CBF3 /* CoreGraphics.framework */,
+				4F6299121933499D00C8CBF3 /* UIKit.framework */,
+				4F6299271933499D00C8CBF3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F6299141933499D00C8CBF3 /* MarbleTap01 */ = {
+			isa = PBXGroup;
+			children = (
+				4F62991D1933499D00C8CBF3 /* AppDelegate.h */,
+				4F62991E1933499D00C8CBF3 /* AppDelegate.m */,
+				4F62993D193349CA00C8CBF3 /* MainMenuViewController.h */,
+				4F62993E193349CA00C8CBF3 /* MainMenuViewController.m */,
+				4F62993F193349CA00C8CBF3 /* MainMenuViewController.xib */,
+				4F62994219334B6500C8CBF3 /* GameScreenViewController.h */,
+				4F62994319334B6500C8CBF3 /* GameScreenViewController.m */,
+				4F62994419334B6500C8CBF3 /* GameScreenViewController.xib */,
+				4F62994719334B7900C8CBF3 /* HighScoreViewController.h */,
+				4F62994819334B7900C8CBF3 /* HighScoreViewController.m */,
+				4F62994919334B7900C8CBF3 /* HighScoreViewController.xib */,
+				4F6299201933499D00C8CBF3 /* Images.xcassets */,
+				4F6299151933499D00C8CBF3 /* Supporting Files */,
+			);
+			path = MarbleTap01;
+			sourceTree = "<group>";
+		};
+		4F6299151933499D00C8CBF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F6299161933499D00C8CBF3 /* MarbleTap01-Info.plist */,
+				4F6299171933499D00C8CBF3 /* InfoPlist.strings */,
+				4F62991A1933499D00C8CBF3 /* main.m */,
+				4F62991C1933499D00C8CBF3 /* MarbleTap01-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F62992D1933499D00C8CBF3 /* MarbleTap01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F6299331933499D00C8CBF3 /* MarbleTap01Tests.m */,
+				4F62992E1933499D00C8CBF3 /* Supporting Files */,
+			);
+			path = MarbleTap01Tests;
+			sourceTree = "<group>";
+		};
+		4F62992E1933499D00C8CBF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F62992F1933499D00C8CBF3 /* MarbleTap01Tests-Info.plist */,
+				4F6299301933499D00C8CBF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F62990A1933499D00C8CBF3 /* MarbleTap01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F6299371933499D00C8CBF3 /* Build configuration list for PBXNativeTarget "MarbleTap01" */;
+			buildPhases = (
+				4F6299071933499D00C8CBF3 /* Sources */,
+				4F6299081933499D00C8CBF3 /* Frameworks */,
+				4F6299091933499D00C8CBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarbleTap01;
+			productName = MarbleTap01;
+			productReference = 4F62990B1933499D00C8CBF3 /* MarbleTap01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F6299251933499D00C8CBF3 /* MarbleTap01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F62993A1933499D00C8CBF3 /* Build configuration list for PBXNativeTarget "MarbleTap01Tests" */;
+			buildPhases = (
+				4F6299221933499D00C8CBF3 /* Sources */,
+				4F6299231933499D00C8CBF3 /* Frameworks */,
+				4F6299241933499D00C8CBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F62992C1933499D00C8CBF3 /* PBXTargetDependency */,
+			);
+			name = MarbleTap01Tests;
+			productName = MarbleTap01Tests;
+			productReference = 4F6299261933499D00C8CBF3 /* MarbleTap01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F6299031933499D00C8CBF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = klab;
+				TargetAttributes = {
+					4F6299251933499D00C8CBF3 = {
+						TestTargetID = 4F62990A1933499D00C8CBF3;
+					};
+				};
+			};
+			buildConfigurationList = 4F6299061933499D00C8CBF3 /* Build configuration list for PBXProject "MarbleTap01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F6299021933499D00C8CBF3;
+			productRefGroup = 4F62990C1933499D00C8CBF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F62990A1933499D00C8CBF3 /* MarbleTap01 */,
+				4F6299251933499D00C8CBF3 /* MarbleTap01Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F6299091933499D00C8CBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6299191933499D00C8CBF3 /* InfoPlist.strings in Resources */,
+				4F629941193349CA00C8CBF3 /* MainMenuViewController.xib in Resources */,
+				4F62994B19334B7900C8CBF3 /* HighScoreViewController.xib in Resources */,
+				4F62994619334B6500C8CBF3 /* GameScreenViewController.xib in Resources */,
+				4F6299211933499D00C8CBF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F6299241933499D00C8CBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6299321933499D00C8CBF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F6299071933499D00C8CBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F62991F1933499D00C8CBF3 /* AppDelegate.m in Sources */,
+				4F62994A19334B7900C8CBF3 /* HighScoreViewController.m in Sources */,
+				4F629940193349CA00C8CBF3 /* MainMenuViewController.m in Sources */,
+				4F62994519334B6500C8CBF3 /* GameScreenViewController.m in Sources */,
+				4F62991B1933499D00C8CBF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F6299221933499D00C8CBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6299341933499D00C8CBF3 /* MarbleTap01Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F62992C1933499D00C8CBF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F62990A1933499D00C8CBF3 /* MarbleTap01 */;
+			targetProxy = 4F62992B1933499D00C8CBF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F6299171933499D00C8CBF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F6299181933499D00C8CBF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F6299301933499D00C8CBF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F6299311933499D00C8CBF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F6299351933499D00C8CBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F6299361933499D00C8CBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F6299381933499D00C8CBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleTap01/MarbleTap01-Prefix.pch";
+				INFOPLIST_FILE = "MarbleTap01/MarbleTap01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F6299391933499D00C8CBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleTap01/MarbleTap01-Prefix.pch";
+				INFOPLIST_FILE = "MarbleTap01/MarbleTap01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F62993B1933499D00C8CBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarbleTap01.app/MarbleTap01";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleTap01/MarbleTap01-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MarbleTap01Tests/MarbleTap01Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4F62993C1933499D00C8CBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarbleTap01.app/MarbleTap01";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarbleTap01/MarbleTap01-Prefix.pch";
+				INFOPLIST_FILE = "MarbleTap01Tests/MarbleTap01Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F6299061933499D00C8CBF3 /* Build configuration list for PBXProject "MarbleTap01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F6299351933499D00C8CBF3 /* Debug */,
+				4F6299361933499D00C8CBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F6299371933499D00C8CBF3 /* Build configuration list for PBXNativeTarget "MarbleTap01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F6299381933499D00C8CBF3 /* Debug */,
+				4F6299391933499D00C8CBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F62993A1933499D00C8CBF3 /* Build configuration list for PBXNativeTarget "MarbleTap01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F62993B1933499D00C8CBF3 /* Debug */,
+				4F62993C1933499D00C8CBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F6299031933499D00C8CBF3 /* Project object */;
+}
