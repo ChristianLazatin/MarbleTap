@@ -7,8 +7,19 @@
 //
 
 #import "GameScreenViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface GameScreenViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *score;
+@property (weak, nonatomic) IBOutlet UIButton *pauseButton;
+
+@property (nonatomic, strong) UIView *orangeBall;
+@property (nonatomic, strong) UIDynamicAnimator *animator;
+@property (nonatomic, strong) UIGravityBehavior *gravityBehavior;
+@property (nonatomic, strong) UIPushBehavior *pushBehavior;
+
+@property (nonatomic) BOOL isFirstTap;
+@property (nonatomic) int numberOfTap;
 
 @end
 
@@ -19,6 +30,10 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        _isFirstTap = TRUE;
+        // _randomYCoordinates = [[NSMutableArray alloc] init];
+        _numberOfTap = 0;
+        self.score.text = [NSString stringWithFormat:@"%i",_numberOfTap];
     }
     return self;
 }
@@ -27,12 +42,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.pauseButton.hidden = YES;
+    self.pauseButton.enabled = NO;
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

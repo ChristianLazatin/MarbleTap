@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0D593E193423CA007F6887 /* tiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0D593D193423CA007F6887 /* tiki.png */; };
 		4F62990F1933499D00C8CBF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F62990E1933499D00C8CBF3 /* Foundation.framework */; };
 		4F6299111933499D00C8CBF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6299101933499D00C8CBF3 /* CoreGraphics.framework */; };
 		4F6299131933499D00C8CBF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6299121933499D00C8CBF3 /* UIKit.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0D593D193423CA007F6887 /* tiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiki.png; sourceTree = "<group>"; };
 		4F62990B1933499D00C8CBF3 /* MarbleTap01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleTap01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F62990E1933499D00C8CBF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F6299101933499D00C8CBF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +135,7 @@
 				4F62994719334B7900C8CBF3 /* HighScoreViewController.h */,
 				4F62994819334B7900C8CBF3 /* HighScoreViewController.m */,
 				4F62994919334B7900C8CBF3 /* HighScoreViewController.xib */,
+				4F0D593D193423CA007F6887 /* tiki.png */,
 				4F6299201933499D00C8CBF3 /* Images.xcassets */,
 				4F6299151933499D00C8CBF3 /* Supporting Files */,
 			);
@@ -245,6 +248,7 @@
 			files = (
 				4F6299191933499D00C8CBF3 /* InfoPlist.strings in Resources */,
 				4F629941193349CA00C8CBF3 /* MainMenuViewController.xib in Resources */,
+				4F0D593E193423CA007F6887 /* tiki.png in Resources */,
 				4F62994B19334B7900C8CBF3 /* HighScoreViewController.xib in Resources */,
 				4F62994619334B6500C8CBF3 /* GameScreenViewController.xib in Resources */,
 				4F6299211933499D00C8CBF3 /* Images.xcassets in Resources */,
@@ -471,6 +475,7 @@
 				4F6299391933499D00C8CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F62993A1933499D00C8CBF3 /* Build configuration list for PBXNativeTarget "MarbleTap01Tests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				4F62993C1933499D00C8CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
