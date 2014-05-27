@@ -11,9 +11,9 @@
 #import "HighScoreViewController.h"
 
 @interface MainMenuViewController ()
+
 - (IBAction)toGameScreen:(id)sender;
 - (IBAction)toHighScoreScreen:(id)sender;
-
 
 @end
 
@@ -37,7 +37,6 @@
 - (IBAction)toGameScreen:(id)sender
 {
     GameScreenViewController *gameScreen = [[GameScreenViewController alloc] init];
-    //[self.navigationController pushViewController:gameScreen animated:YES];
     [self presentViewController:gameScreen animated:YES completion:nil];
 }
 
