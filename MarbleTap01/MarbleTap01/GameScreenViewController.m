@@ -35,7 +35,7 @@
         self.collisionBehavior = [[UICollisionBehavior alloc] init];
         self.numberOfTap = 0;
         self.score.text = [NSString stringWithFormat:@"%i",_numberOfTap];
-        
+        // changes
         // Changes to issue04 for commit only
     }
     return self;
