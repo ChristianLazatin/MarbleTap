@@ -35,7 +35,7 @@
         _numberOfTap = 0;
         self.score.text = [NSString stringWithFormat:@"%i",_numberOfTap];
         
-        // Changes to issue04
+        // Changes to dev_1.0
     }
     return self;
 }
