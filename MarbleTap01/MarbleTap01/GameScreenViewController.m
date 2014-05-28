@@ -34,6 +34,8 @@
         // _randomYCoordinates = [[NSMutableArray alloc] init];
         _numberOfTap = 0;
         self.score.text = [NSString stringWithFormat:@"%i",_numberOfTap];
+        
+        // Changes to issue04
     }
     return self;
 }
